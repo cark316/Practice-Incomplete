@@ -1,0 +1,67 @@
+.navbar-root {
+  border-style: solid;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 4rem;
+  align-items: flex-start;
+  padding-top: 0.75rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+
+.navbar-logo {
+  margin-top: 0.5rem;
+  width: 4rem;
+}
+
+.navbar-link {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1px;
+  gap: 2rem;
+  width: 50%;
+  align-items: flex-start;
+}
+
+.navbar-link-text {
+  font-family: ui-sans-serif, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  line-height: 24px;
+  margin-top: 0.5rem;
+  margin-right: 1px;
+}
+
+.navbar-arrowdown-logo {
+  width: 1.5rem;
+}
+
+.navbar-button {
+  display: flex;
+  flex-direction: row;
+  gap: 0.75rem;
+  width: 33.33%;
+  align-items: start;
+}
+
+.navbar-button_1 {
+  width: 88px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  display: flex;
+}
+
+.navbar-button_2 {
+  width: 88px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: black;
+  display: flex;
+}

@@ -1,0 +1,19 @@
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.slide-in-element {
+  animation: slideIn 1s ease-out; /* You can adjust the duration and timing function */
+}
+
+/* Additional styles for demonstration purposes */
+.content {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+}

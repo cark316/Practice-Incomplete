@@ -1,0 +1,53 @@
+import React from 'react'
+
+const Footer = () => {
+  return (
+    <div className="footer-root">
+  <div className="footer-section-top">
+    <img
+      src="https://file.rendit.io/n/xNbUNM1TXvqK08Kvp891.svg"
+      alt="Logo"
+      className="footer-logo"
+    />
+    <div className="footer-link">
+      <div id="Link1" className="footer-link-text">
+        Link One
+      </div>
+      <div id="Link2" className="footer-link-text">
+        Link Two
+      </div>
+      <div id="Link3" className="footer-link-text">
+        Link Three
+      </div>
+      <div id="Link4" className="footer-link-text">
+        Link Four
+      </div>
+      <div id="Link5" className="footer-link-text">
+        Link Five
+      </div>
+    </div>
+  </div>
+  <div className="footer-section-bottom">
+    <div className="footer-section-bottom-divider" />
+    <div className="footer-section-bottom-text">
+      <div className="footer-section-bottom-text-copyright">
+        © 2023 All rights reserved.
+      </div>
+      <div className="footer-section-bottom-text-link">
+        <div className="footer-section-bottom-text-link-text">
+          Privacy Policy
+        </div>
+        <div id="Link7" className="footer-section-bottom-text-link-text">
+          Terms of Service
+        </div>
+        <div id="Link8" className="footer-section-bottom-text-link-text">
+          Cookies Settings
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  )
+}
+
+export default Footer
